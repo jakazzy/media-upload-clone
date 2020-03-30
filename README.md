@@ -17,7 +17,7 @@ These instructions will get you a copy of the project up and running on your loc
 Install or set up an account on the platforms below to successfully install the project
 1. [Install Node and NPM](https://nodejs.org/en/download/)
 2. [Installing Ionic Cli](https://ionicframework.com/docs/installation/cli)
-3. [Create an account on Amazon Web Services](https://portal.aws.amazon.com/billing/signup#/)
+3. [Create an account on Amazon Web Services](https://portal.aws.amazon.com/billing/signup#/)<br>
     i. An RDS resource and AWS S3 resource will be setup in the 'SET UP STAGE - STEP 1'
 4. [Download and install AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
 5. [Install Docker](https://docs.docker.com/install/)
@@ -30,7 +30,7 @@ Necessary but not required
 
 ### STEPS FOR SETTING UP PROJECT AND DEPLOYING ON KUBERNETES
 
-#### SET UP STAGE - STEP 1
+##### SET UP STAGE - STEP 1
 1. Git clone the [media-upload-project](https://github.com/jakazzy/media-upload-clone)
 2. cd into the various directories(below) and for each run npm install
     udacity-c3-frontend
@@ -58,7 +58,7 @@ After adding the env variables, run
 ```
 source ~/.profile
 ```
-#### CREATING DOCKER IMAGES - STEP 2
+##### CREATING DOCKER IMAGES - STEP 2
 
 1. Create a docker image with the command
 ```
@@ -102,7 +102,7 @@ http://localhost:8100/
 docker-compose down
  ```
 
- #### SET UP KUBERNETES , DEPLOYMENTS, SERVICES - STEP 3
+ ##### SET UP KUBERNETES , DEPLOYMENTS, SERVICES - STEP 3
 
  1. Install Kubernetes on AWS cluster using this [resource](https://github.com/kubermatic/kubeone/blob/v0.11.0/docs/quickstart-aws.md) 
 
@@ -129,7 +129,7 @@ docker-compose down
             ```
 
 
-#### SET UP CONTINUOUS INTEGRATION AND CONTINUOUS DEPLOYMENT WITH TRAVISCI - STEP 4
+##### SET UP CONTINUOUS INTEGRATION AND CONTINUOUS DEPLOYMENT WITH TRAVISCI - STEP 4
 
 1. Add TravisCI as an application on GitHub,then add (your repository) repository.
 
